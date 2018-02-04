@@ -1,5 +1,17 @@
-<h1>New Invoice</h1>
+<div class="row">
+    <div class="col-md-10 col-md-offset-1">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+            <!--<h3 class="panel-title">New Invoice</h3>-->
+            <%= link_to 'Back', invoices_path, class: "btn btn-warning" %>
+            </div>
+            <div class="panel-body">
+                <%= render 'form', invoice: @invoice %>
+            </div>
+        </div>
+    </div>
+</div>
 
-<%= render 'form', invoice: @invoice %>
 
-<%= link_to 'Back', invoices_path %>
+
+

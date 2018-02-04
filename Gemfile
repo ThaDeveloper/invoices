@@ -14,6 +14,14 @@ gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+#bootstrap
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+#jquery rails
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
+#simple form
+gem 'simple_form', '~> 3.5'
+#datepicker
+gem 'bootstrap-datepicker-rails', '~> 1.7', '>= 1.7.1.1'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
@@ -29,6 +37,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
