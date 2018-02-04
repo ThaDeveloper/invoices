@@ -21,7 +21,7 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 #simple form
 gem 'simple_form', '~> 3.5'
 #datepicker
-gem 'bootstrap-datepicker-rails', '~> 1.7', '>= 1.7.1.1'
+#gem 'bootstrap-datepicker-rails', '~> 1.7', '>= 1.7.1.1'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
